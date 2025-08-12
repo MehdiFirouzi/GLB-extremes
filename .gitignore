@@ -205,3 +205,29 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignore data folders
+data/raw/
+data/processed/
+
+# Ignore temporary or large files
+*.nc
+*.csv
+*.tif
+*.tiff
+*.zip
+*.tar.gz
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
