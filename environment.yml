@@ -1,0 +1,18 @@
+name: glb-extremes
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - numpy=1.26
+  - pandas=2.2
+  - xarray
+  - netcdf4
+  - dask
+  - matplotlib
+  - cartopy
+  - scipy
+  - cftime
+  - jupyterlab
+  - pyyaml
+  - pip
+  - pip:
+      - cdsapi
