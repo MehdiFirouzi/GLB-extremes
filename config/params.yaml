@@ -1,0 +1,11 @@
+study:
+  years: [1991, 2012]
+  region_name: "Great Lakes Basin (GLB)"
+
+indices:
+  precip: [RX1Day, RX5Day, R95p, R99p, Wetdays, Drydays, CWD]
+  temp:   [TXx, TNn, TX90p, TN10p, WSDI, CSDI]
+
+metrics:
+  summary: [MBE, RMSE, STD, CC, d]
+
