@@ -14,6 +14,10 @@ This repository contains code and minimal data to reproduce analyses and figures
 * 
 * src/figures/ – scripts for generating publication figures
 * 
+* src/lwr/ – scripts for the Locally Weighted Regression method for all datasets
+* 
+* src/statistical metrics/ – scripts for calculating the statistical metrics for each dataset
+* 
 * notebooks/ – Jupyter notebooks for exploratory analysis and demonstrations
 * 
 * config/ – configuration files (YAML/JSON) for study settings, paths, and index lists
@@ -39,8 +43,4 @@ Processed datasets are too large to include; however, figure-ready index results
 Code: MIT License
 
 Data: CC-BY-4.0
-
-
-
-
 
