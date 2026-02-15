@@ -53,13 +53,12 @@ Update dataset paths in `config/params.yaml` before running analyses.
 
 ## Data
 
-Reanalysis datasets (EMDNA, PRISM, ERA5, MERRA-2, etc.) are obtained from their original providers and are not included.
+Reanalysis datasets (PRISM, EMDNA, RDRS v2.1, ERA5, MERRA-2, and CHIRPS v2.0.) are obtained from their original providers and are not included.
 
 A versioned release will be archived via Zenodo (DOI to be added).
 
 ---
 
-## License
 
 ## License
 
