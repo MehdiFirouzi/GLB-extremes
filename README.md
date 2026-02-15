@@ -1,46 +1,68 @@
 # GLB-extremes
 
-This repository contains code and minimal data to reproduce analyses and figures for:
+Code and analysis workflow for:
 
-"Intercomparison of reanalysis datasets for capturing precipitation and temperature extremes over the Great Lakes Basin."
+“Intercomparison of reanalysis datasets’ performance in capturing precipitation and temperature extremes over the Great Lakes Basin.”
+
+---
+
+## Structure
+
+### config/
+- `params.yaml` – Study configuration
+
+### figures/ (final manuscript figures)
+- Bias-spatial-maps/
+- Boxplots prcp/
+- Boxplots temperature/
+- CDF plots prcp/
+- CDF plots temperature/
+- Seasonal boxplots prcp/
+- Seasonal boxplots temperature/
+- Station Locations/
+- Study area map/
+- Taylor Diagrams/
+
+### notebooks/
+- `Datasets-Download-Scripts.ipynb` – Dataset download scripts
+
+### src/ (analysis code)
+- `data_prep/` – Dataset preparation  
+- `emdna_tests/` – EMDNA ensemble evaluation  
+- `indices/` – ETCCDI index calculation  
+- `statistical metrics/` – Performance metrics  
+- `lwr/` – Locally Weighted Regression  
+- `taylor-diagrams/` – Taylor diagram generation  
+- `figures/` – Figure-generation scripts  
+
+---
+
+## Reproducibility
+
+Clone the repository and create the environment:
+
+git clone https://github.com/MehdiFirouzi/GLB-extremes.git
+
+conda env create -f environment.yml
+conda activate glb-extremes
 
 
+Update dataset paths in `config/params.yaml` before running analyses.
 
-**Contents**
+---
 
-* src/data\_prep/ – scripts for downloading, cleaning, masking, and preparing reanalysis datasets
-* 
-* src/indices/ – scripts for calculating ETCCDI temperature and precipitation extreme indices
-* 
-* src/figures/ – scripts for generating publication figures
-* 
-* src/lwr/ – scripts for the Locally Weighted Regression method for all datasets
-* 
-* src/statistical metrics/ – scripts for calculating the statistical metrics for each dataset
-* 
-* notebooks/ – Jupyter notebooks for exploratory analysis and demonstrations
-* 
-* config/ – configuration files (YAML/JSON) for study settings, paths, and index lists
-* 
-* data/raw/ – local storage for original datasets (excluded from Git)
-* 
-* data/processed/ – local storage for processed datasets (excluded from Git)
-* 
-* figures/ – generated figures for the paper
+## Data
 
+Reanalysis datasets (EMDNA, PRISM, ERA5, MERRA-2, etc.) are obtained from their original providers and are not included.
 
+A versioned release will be archived via Zenodo (DOI to be added).
 
-**Data Access**
+---
 
-Full reanalysis datasets are available from their respective providers (links in src/data\_prep/).
+## License
 
-Processed datasets are too large to include; however, figure-ready index results are provided in this repository or via the linked data DOI.
-
-
-
-**License**
+## License
 
 Code: MIT License
 
-Data: CC-BY-4.0
-
+Derived data products (if distributed separately) are released under CC-BY-4.0.
