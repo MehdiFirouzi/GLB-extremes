@@ -12,16 +12,16 @@ Code and analysis workflow for:
 - `params.yaml` – Study configuration
 
 ### figures/ (final manuscript figures)
-- Bias-spatial-maps/
-- Boxplots prcp/
-- Boxplots temperature/
-- CDF plots prcp/
-- CDF plots temperature/
-- Seasonal boxplots prcp/
-- Seasonal boxplots temperature/
-- Station Locations/
-- Study area map/
-- Taylor Diagrams/
+- `bias-spatial-maps/`
+- `boxplots_prcp/`
+- `boxplots_temperature/`
+- `cdf_plots_prcp/`
+- `cdf_plots_temperature/`
+- `seasonal_boxplots_prcp/`
+- `seasonal_boxplots_temperature/`
+- `station_locations/`
+- `study_area_map/`
+- `taylor_diagrams/`
 
 ### notebooks/
 - `Datasets-Download-Scripts.ipynb` – Dataset download scripts
@@ -30,11 +30,10 @@ Code and analysis workflow for:
 - `data_prep/` – Dataset preparation  
 - `emdna_tests/` – EMDNA ensemble evaluation  
 - `indices/` – ETCCDI index calculation  
-- `statistical metrics/` – Performance metrics  
+- `statistical_metrics/` – Performance metrics  
 - `lwr/` – Locally Weighted Regression  
 - `taylor-diagrams/` – Taylor diagram generation  
 - `figures/` – Figure-generation scripts  
-
 ---
 
 ## Reproducibility
