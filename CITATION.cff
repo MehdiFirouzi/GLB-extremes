@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as follows."
+title: "GLB-extremes: Code and reproducible workflow for Great Lakes reanalysis extremes study"
+version: "v1.0"
+doi: "10.5281/zenodo.18664789"
+date-released: 2026-02-16
+license: MIT
+repository-code: "https://github.com/MehdiFirouzi/GLB-extremes"
+
+authors:
+  - family-names: Firouzi
+    given-names: Mohammadmehdi
+    orcid: "https://orcid.org/0009-0002-1122-4299"
+    affiliation: "Department of Civil Engineering, McMaster University, Hamilton, ON, Canada"
+
+  - family-names: Coulibaly
+    given-names: Paulin
+    affiliation: "Department of Civil Engineering, McMaster University, Hamilton, ON, Canada"
