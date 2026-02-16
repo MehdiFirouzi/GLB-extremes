@@ -1,5 +1,7 @@
 # GLB-extremes
 
+[![DOI](https://zenodo.org/badge/1036960348.svg)](https://doi.org/10.5281/zenodo.18664699)
+
 Code and analysis workflow for:
 
 Firouzi, M., and Coulibaly, P. (2026).  
