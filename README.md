@@ -12,6 +12,7 @@ Code and analysis workflow for:
 - `params.yaml` – Study configuration
 
 ### figures/ (final manuscript figures)
+
 - `bias-spatial-maps/`
 - `boxplots_prcp/`
 - `boxplots_temperature/`
@@ -22,6 +23,7 @@ Code and analysis workflow for:
 - `station_locations/`
 - `study_area_map/`
 - `taylor_diagrams/`
+
 
 ### notebooks/
 - `Datasets-Download-Scripts.ipynb` – Dataset download scripts
