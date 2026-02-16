@@ -45,12 +45,23 @@ Clone the repository and create the environment:
 git clone https://github.com/MehdiFirouzi/GLB-extremes.git
 conda env create -f environment.yml
 conda activate glb-extremes
-Before running the analyses, update dataset paths in config/params.yaml and adjust local input/output paths in the scripts or notebooks as needed.
+```
 
-Data
+Before running the analyses:
+
+- Update dataset paths in `config/params.yaml`
+- Adjust local input/output paths in the scripts or notebooks as needed
+
+---
+
+## Data
+
 Reanalysis datasets (PRISM, EMDNA, RDRS v2.1, ERA5, MERRA-2, and CHIRPS v2.0) are obtained from their original providers and are not included in this repository due to file size constraints.
 
 A versioned release of this repository will be archived via Zenodo (DOI to be added).
 
-License
+---
+
+## License
+
 Code: MIT License
