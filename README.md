@@ -2,7 +2,22 @@
 
 Code and analysis workflow for:
 
-“Intercomparison of reanalysis datasets’ performance in capturing precipitation and temperature extremes over the Great Lakes Basin.”
+Firouzi, M., and Coulibaly, P. (2026).  
+**Intercomparison of reanalysis datasets performance in capturing precipitation and temperature extremes over the Great Lakes Basin.**  
+Journal of Climate (submitted).
+
+###Mohammadmehdi Firouzi¹ and Paulin Coulibaly¹,²,³  
+
+¹ Department of Civil Engineering, McMaster University, 1280 Main Street West, Hamilton, ON L8S 4L7, Canada  
+² School of Earth, Environment and Society, McMaster University, 1280 Main Street West, Hamilton, ON L8S 4L7, Canada  
+³ United Nations University Institute for Water, Environment and Health, Richmond Hill, ON, Canada  
+
+Corresponding author: Mohammadmehdi Firouzi  
+Email: firouzim@mcmaster.ca  
+
+---
+
+This repository contains the code and minimal reproducible workflow associated with the Journal of Climate submission.
 
 ---
 
