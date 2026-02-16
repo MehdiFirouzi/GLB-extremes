@@ -23,6 +23,7 @@ Code and analysis workflow for:
 - `station_locations/`
 - `study_area_map/`
 - `taylor_diagrams/`
+- `Workflow-Chart/`
 
 
 ### notebooks/
