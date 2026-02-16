@@ -5,7 +5,7 @@
 All analysis scripts required to reproduce the results are provided in this repository.  
 Due to data volume, raw and intermediate processed climate datasets are not included.
 
-##Users must:
+## Users must:
 
 1. Obtain the original reanalysis datasets from their respective providers (The scripts to download the datasets are provided in "https://github.com/MehdiFirouzi/GLB-extremes/tree/main/notebooks")
 
