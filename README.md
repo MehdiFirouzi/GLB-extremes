@@ -78,8 +78,7 @@ Before running the analyses:
 
 Reanalysis datasets (PRISM, EMDNA, RDRS v2.1, ERA5, MERRA-2, and CHIRPS v2.0) are obtained from their original providers and are not included in this repository due to file size constraints.
 
-A versioned release of this repository will be archived via Zenodo (DOI to be added).
-
+### This repository is archived via Zenodo: https://doi.org/10.5281/zenodo.18664699
 ---
 
 ## License
