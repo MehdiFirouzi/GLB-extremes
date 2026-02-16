@@ -6,7 +6,7 @@ Firouzi, M., and Coulibaly, P. (2026).
 **Intercomparison of reanalysis datasets performance in capturing precipitation and temperature extremes over the Great Lakes Basin.**  
 Journal of Climate (submitted).
 
-###Mohammadmehdi Firouzi¹ and Paulin Coulibaly¹,²,³  
+### Mohammadmehdi Firouzi¹ and Paulin Coulibaly¹,²,³  
 
 ¹ Department of Civil Engineering, McMaster University, 1280 Main Street West, Hamilton, ON L8S 4L7, Canada  
 ² School of Earth, Environment and Society, McMaster University, 1280 Main Street West, Hamilton, ON L8S 4L7, Canada  
